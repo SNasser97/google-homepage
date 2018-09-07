@@ -198,10 +198,19 @@ img {
 }
 */
 
+footer {
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: #eceae7;
+	border-top: 1px solid #ccc;
+}
+
 .footer-list-container {
   width: 100%;
-  background-color:#eceae7;
-  border-top:1px solid #ccc;
+  background-color:inherit;
+ /* border-top:1px solid #ccc;*/
   line-height: 1.5;
 }
 
